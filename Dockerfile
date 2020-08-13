@@ -20,15 +20,15 @@
 #
 #################################################################################################################################
 #
-# Image path: relenteny/alpine:3.10.2
+# Image path: relenteny/alpine:3.12.0
 #
 #################################################################################################################################
 
-FROM alpine:3.10.2
+FROM alpine:3.12.0
 
 LABEL relenteny.repository.url=https://github.com/relenteny/alpine
-LABEL relenteny.repository.tag=3.10.2
-LABEL relenteny.alpine.version=3.10.2
+LABEL relenteny.repository.tag=3.12.0
+LABEL relenteny.alpine.version=3.12.0
 
 RUN set -x && \
     addgroup -g 1000 -S alpine && \
